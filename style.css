@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+     background-color: #129799;
+     color: #f7f7f7;
+     
+  
+  
+  
+  }
+  
+  .row {
+      flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .container {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+    color:#f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+        font-size: 1em;
+  }
+      
+  
+  .flex-start {
+      align-content: flex-start;
+  }
+  
+  .item {
+      /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+      flex: 1;
+      margin: 5px;
+    align-items: center;
+      text-align: center;
+      font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;;
+     padding-top: 30%;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  
+   
+  }
+  
+  .imglife{
+    width: 5vw;
+    
+  
+  }
+  
+  .item2 {
+      /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+      flex: 1;
+      margin: 5px;
+    align-items: center;
+      text-align: center;
+      font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  
+  main{
+    background: #ffa185;
+  }
+  
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+     color: #f7f7f7;
+     font-size: 2em;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+  }
+  
+  main{
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+  
+  main div{
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .imagens{
+    width: 40vw;
+    height: 40vh;
+    padding: 10px;
+    
+  
+  }
+  
+  main div h3{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-right: 50px;
+  
+  }
+  
+  
+  h3{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
+  }
+  
+  footer{
+     background: #129799;
+  
+  }
+  
+    footer div{
+      margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .logos{
+    height: 10vh;
+  }
+  
+  .center {
+    display: flex;
+      justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+  
+   
+  }
+  
+  .item3{
+        flex: 1;
+      margin: 5px;
+      font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    justify-content: flex-end;
+  
+  }
